@@ -26,6 +26,7 @@ The skill is for campaign, landing, informational, and form-adjacent static page
 - `scripts/validate_handoff.py`: dependency-free, read-only structural validator.
 - `fixtures/`: a neutral compliant handoff plus deliberately invalid inputs used to exercise the validator.
 - `agents/openai.yaml`: discovery metadata for Codex.
+- `CHANGELOG.md`: released skill changes.
 
 ## Validation
 
