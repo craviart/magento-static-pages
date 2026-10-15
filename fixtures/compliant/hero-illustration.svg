@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Seasonal product arrangement</title>
+  <desc id="desc">Abstract warm shapes arranged on a pale green background.</desc>
+  <rect width="1200" height="600" fill="#E7F2E6"/>
+  <circle cx="320" cy="290" r="170" fill="#F7C948"/>
+  <rect x="560" y="150" width="280" height="330" rx="140" fill="#3E6B56"/>
+  <path d="M920 135c105 69 139 210 70 321-70 110-215 145-324 76 82-1 151-43 193-111 42-68 49-150 61-286Z" fill="#E1774E"/>
+</svg>

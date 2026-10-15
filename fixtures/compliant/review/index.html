@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spring launch review</title>
+  <style>
+    .spring-launch-page { margin: 0; padding: 0; }
+    .spring-launch-page .spring-launch-page__hero { margin: 0 auto; padding: 0 24px 48px; max-width: 1200px; }
+    .spring-launch-page .spring-launch-page__title { font-size: 40px; line-height: 1.1; }
+    .spring-launch-page .spring-launch-page__summary { font-size: 18px; line-height: 1.5; }
+    .spring-launch-page .spring-launch-page__cta { font-size: 16px; }
+    .spring-launch-page .spring-launch-page__cta:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+    @media (max-width: 768px) { .spring-launch-page .spring-launch-page__hero { padding: 0 16px 32px; } .spring-launch-page .spring-launch-page__title { font-size: 32px; } }
+  </style>
+</head>
+<body>
+  <div class="spring-launch-page">
+    <section class="spring-launch-page__hero" aria-labelledby="spring-launch-title">
+      <h1 id="spring-launch-title" class="spring-launch-page__title">A brighter way to discover the season</h1>
+      <p class="spring-launch-page__summary">Explore the selected collection and find the right product for your next occasion.</p>
+      <a class="spring-launch-page__cta" href="#collection">Explore the collection</a>
+      <img class="spring-launch-page__image" src="../hero-illustration.svg" alt="A carefully arranged seasonal collection">
+    </section>
+  </div>
+  <script>const root = document.querySelector('.spring-launch-page'); if (!root) { /* preview remains readable */ } else { root.dataset.springLaunchReady = 'true'; }</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Magento Static Pages"
+  short_description: "Prepare safe Magento CMS static-page handoffs"
+  default_prompt: "Use $magento-static-pages to prepare this approved static page as a safe Magento CMS handoff."
+policy:
+  allow_implicit_invocation: true
