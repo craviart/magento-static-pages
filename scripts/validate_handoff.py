@@ -114,6 +114,10 @@ def validate_css(text: str, root: str) -> list[str]:
     root_block = declaration_block(body, f".{root}")
     if root_block is None or not re.search(r"\bmargin\s*:\s*0\s*;", root_block) or not re.search(r"\bpadding\s*:\s*0\s*;", root_block):
         errors.append("root selector must explicitly set margin: 0 and padding: 0")
+    elif not re.search(r"\bwidth\s*:\s*100%\s*;", root_block):
+        errors.append("root selector must explicitly set width: 100%")
+    elif re.search(r"\bmax-width\s*:", root_block, flags=re.IGNORECASE):
+        errors.append("root selector must not set max-width")
     return errors
 
 

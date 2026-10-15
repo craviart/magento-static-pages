@@ -6,6 +6,7 @@
 - Paste `spring-launch-magento-style.html` into the page's approved CSS widget or asset block.
 - Paste `spring-launch-magento-script.html` into the approved JavaScript widget only if the page-specific ready state is needed.
 - Root selector and namespace: `.spring-launch-page`.
+- Desktop container source: approved target-theme shell. `.spring-launch-page__container` uses a 1200px maximum with 16px gutters; no asymmetric layout is approved.
 
 ## Assets
 
@@ -18,6 +19,8 @@ The SVG is a neutral fixture illustration. The real campaign asset, final path, 
 ## Review
 
 Open `review/index.html` from the `fixtures/compliant` directory through a local web server. It uses the same structure and styles as the delivered widgets while substituting the Magento media directive with `hero-illustration.svg`.
+
+Review at 1440px, 1920px, and a narrow width. This neutral fixture simulates a full-width CMS insertion point rather than a Magento shell.
 
 ## Open contracts
 
