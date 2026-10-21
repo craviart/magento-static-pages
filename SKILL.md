@@ -10,6 +10,7 @@ Turn an approved static-page design into a reviewable, paste-ready Magento CMS h
 ## Operating rules
 
 - Discover the approved design, target store views, asset ownership, Magento media-path convention, and unresolved platform contracts before creating a handoff.
+- Do not ask whether to use Figma Code Connect as a default setup question. Proceed with the approved design and available source files or references. Use Code Connect when it is already available and directly useful; ask about it only if a specific missing mapping blocks the handoff or the user explicitly requests Code Connect work.
 - Magento owns shared chrome, routing, catalog data, price, stock, cart, checkout, customer state, SEO, robots, consent, and production analytics. Do not replace, simulate, or hardcode them without an approved integration contract.
 - Deliver one page-specific HTML root, one separately wrapped and fully scoped CSS widget, and JavaScript only for genuine page interaction. Keep the standalone browser review separate from the Magento payload.
 - Keep controls semantic and keyboard-operable. Use links for navigation and buttons for actions. Provide visible focus styles and explicit labels.
