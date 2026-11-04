@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.0] - 2026-11-04
+
+### Changed
+
+- Require confirmation of exact media paths, case, and uploader-supported image formats before handoff.
+- Prefer direct image sources when Magento directive processing in responsive or deferred attributes is unverified.
+- Account for separate widget load order and late CSS overrides when adapting interactive pages.
+- Distinguish local preview results from image and interaction checks on the integrated Magento page.
+
 ## [1.0.0] - 2026-10-15
 
 ### Changed
